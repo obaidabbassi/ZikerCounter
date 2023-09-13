@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context="com.example.zikercounter.dashboard">
+
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="0dp"
+        android:layout_height="375dp"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/islbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="362dp"
+        android:layout_height="68dp"
+        android:text="&quot;فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ&quot; [سورة البقرة 2:152]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/banner"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="443dp"
+        android:layout_height="72dp"
+        android:text='"So remember Me; I will remember you. And be grateful to Me and do not deny Me."'
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="332dp"
+        android:layout_height="84dp"
+        android:text="تو مجھے یاد کرو میں تمہیں یاد کروں گا اور مجھ پر شکر کرو اور میری نعمتوں کو نہ مسترد کرو۔"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/banner"
+        app:layout_constraintVertical_bias="0.276" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="344dp"
+        android:gravity="center_horizontal"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="10dp"
+
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+
+            tools:layout_editor_absoluteX="304dp"
+            tools:layout_editor_absoluteY="304dp">
+
+
+            <ImageView
+                android:layout_width="116dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:background="@drawable/notes"
+                android:foregroundGravity="center" />
+
+
+            <TextView
+                android:id="@+id/tvnotes1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145dp"
+                android:gravity="center"
+                android:text="Add notes"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="10dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="783dp"
+            tools:layout_editor_absoluteY="304dp">
+
+
+            <ImageView
+                android:layout_width="138dp"
+                android:layout_height="122dp"
+                android:layout_gravity="center"
+                android:background="@drawable/salat"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:id="@+id/tvnotes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145dp"
+                android:gravity="center"
+                android:text="Kids corner"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.088"
+
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+
+            tools:layout_editor_absoluteX="304dp"
+            tools:layout_editor_absoluteY="536dp">
+
+
+            <ImageView
+                android:layout_width="118dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:background="@drawable/koran"
+                android:foregroundGravity="center" />
+
+
+            <TextView
+                android:id="@+id/tvnotes13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145dp"
+                android:gravity="center"
+                android:text="Wazaif"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="10dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="798dp"
+            tools:layout_editor_absoluteY="536dp">
+
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="121dp"
+                android:layout_gravity="center"
+                android:background="@drawable/contactus"
+                android:foregroundGravity="center" />
+
+            <TextView
+                android:id="@+id/tvnotes4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145dp"
+                android:gravity="center"
+                android:text="Suggestions"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

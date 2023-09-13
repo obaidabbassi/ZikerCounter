@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="juma" formatted="true">جو شخص جمعہ کو 100 مرتبہ الله هو  کہے گا اس کی تمام مشکلات حل ہو جائیں گی۔</string>
+<string name="jumaeng">Whoever says Allah hu 100 times on Friday, all his problems will be solved.</string>
+
+    <string name="hafta" formatted="true"> جو شخص ہفتہ کے روز 100 بار  لا إله إلا الله  کہے گا تو تمام غم ختم ہو جائیں گے۔
+
+</string>
+
+    <string name="haftaeng"> Whoever says La ela ha ila ho 100 times on Saturday, all sorrow will end.</string>
+
+    <string name="etwar_somwar">    جو شخص 1000 بار  يا حي يا قيوم  کہے گا تو اسے روزی میں اضافہ ملے گا۔
+</string>
+
+
+<string name="etwareng">Whoever says 1000 times  ya hauyo ya qayyum, he will get an increase in his livelihood.</string>
+
+    <string name="tuesdsay">    جو شخص 1000 بار  صلى الله علی انبی وآله وسلم  کہے گا تو ہر بلا ٹل جاے گی۔
+</string>
+
+
+    <string name="tueseng">  Whoever says sallallah ho alun nabi ye wa aa lahi wasalim 1,000 times, every call will be averted.</string>
+
+    <string name="wednesday">    جو شخص 1000 بار  أسْتَغْفِرُ اللهَ رَبي مِنْ كُلِ ذَنبٍ وَأتُوبُ إلَيهِ  کہے گا قبر کے عزاب سے محفوظ رہے گا۔
+</string>
+
+
+    <string name="wedeng"> Whoever says 1000 times, astagfirullah ha rabi min quli zanbin watubo elay Allah will saved from the destruction of the grave</string>
+    <string name="thursday">    جو شخص 1000 بار  لا إله إلا الله الملک الحق المبین   کہے گا ایمان سے مالا مال ھو جاے گا۔
+</string>
+
+<string name="thurseng">  Whoever says La illaha illallah houl Mulk al-Haq al-Mubeen 1000 times will be rich in faith.</string>
+
+</resources>

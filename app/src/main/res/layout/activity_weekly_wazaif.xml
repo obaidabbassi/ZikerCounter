@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context="com.example.zikercounter.Weekly_wazaif">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/ad_id_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wazaifcardother"
+        app:layout_constraintVertical_bias="0.982" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_marginTop="250dp"
+    android:layout_marginBottom="40dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Ziker for Friday"
+
+                    android:textColor="@color/yellow"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="جمعہ کے لئے ذکر"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/juma"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/jumaeng"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:id="@+id/tvheading"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Ziker for Saturday"
+
+                    android:textColor="@color/yellow"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/tvsubheading"
+                    android:textStyle="bold"
+                    android:text="ہفتہ کے لئے ذکر "
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:id="@+id/tvmain"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="61dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:paddingBottom="15dp"
+                    android:text="@string/hafta"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvmains"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="61dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:paddingBottom="15dp"
+                    android:text="@string/haftaeng"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Ziker for Sunday and Monday"
+
+                    android:textColor="@color/yellow"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="اتوار اور پیر کے لئے ذکر"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/etwar_somwar"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/etwareng"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Ziker for Tuesday"
+
+                    android:textColor="@color/yellow"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="منگل کے لئے ذکر"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/tuesdsay"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/tueseng"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Ziker for Wednesday"
+
+                    android:textColor="@color/yellow"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="بدھ کے لئے ذکر"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/wednesday"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/wedeng"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:elevation="10dp"
+            android:layout_gravity="center"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:text="Ziker for Thursday"
+
+                    android:textColor="@color/yellow"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    android:textStyle="bold"
+                    android:text="جمعرات کے لئے ذکر"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/thursday"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="@string/thurseng"
+                    android:layout_marginStart="20dp"
+                    android:paddingBottom="15dp"
+
+                    android:layout_marginEnd="20dp"
+                    android:textSize="18sp"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

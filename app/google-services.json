@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1035584526111",
+    "project_id": "ziker-counter",
+    "storage_bucket": "ziker-counter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035584526111:android:69d74e6cb04a7b4f1a422a",
+        "android_client_info": {
+          "package_name": "com.example.zikercounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035584526111-ljbtm7csaid3n7v4biic3lg86ghi85bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABnKvrDAPpeavXsAakqV9Xuwg-A7ywR2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035584526111-ljbtm7csaid3n7v4biic3lg86ghi85bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035584526111:android:d2894de5d8545dc71a422a",
+        "android_client_info": {
+          "package_name": "com.zikercounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035584526111-ljbtm7csaid3n7v4biic3lg86ghi85bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABnKvrDAPpeavXsAakqV9Xuwg-A7ywR2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035584526111-ljbtm7csaid3n7v4biic3lg86ghi85bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

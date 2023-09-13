@@ -1,0 +1,155 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="480dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="@string/ad_id_banner" />
+
+
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/colorr"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/wheel"
+        android:text="colorchooser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    <ImageView
+        android:id="@+id/imgoff"
+        android:layout_width="327dp"
+        android:layout_height="396dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/off"
+
+        app:layout_constraintBottom_toTopOf="@+id/bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <ImageView
+        android:id="@+id/imgon"
+        android:layout_width="327dp"
+        android:layout_height="396dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/an"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:fontFamily="@font/digital"
+        android:text="5"
+        android:textSize="90sp"
+        android:textColor="#1F1F1F"
+        app:layout_constraintBottom_toTopOf="@+id/btnLed"
+        app:layout_constraintEnd_toEndOf="@+id/imgoff"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnLed"
+        app:layout_constraintTop_toTopOf="@+id/imgoff"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnCount"
+        android:layout_width="145dp"
+        android:layout_height="137dp"
+        android:background="@drawable/count"
+        app:layout_constraintBottom_toBottomOf="@+id/imgoff"
+        app:layout_constraintEnd_toEndOf="@+id/imgoff"
+        app:layout_constraintStart_toStartOf="@+id/imgoff"
+        app:layout_constraintTop_toTopOf="@+id/imgoff"
+        app:layout_constraintVertical_bias="0.752"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnReset"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/re"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCount"
+        app:layout_constraintEnd_toEndOf="@+id/btnCount"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/imgoff"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnLed"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/led"
+        app:layout_constraintEnd_toEndOf="@+id/imgoff"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="@+id/imgoff"
+        app:layout_constraintTop_toTopOf="@+id/imgoff"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#B49344"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:theme="@style/MyBottomNavigationView"
+        app:menu="@menu/menue" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

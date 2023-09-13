@@ -1,0 +1,140 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="891dp"
+        android:layout_height="411dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/r"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="@string/ad_id_banner" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imgon"
+        android:layout_width="244dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/an"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <ImageView
+        android:id="@+id/imgoff"
+        android:layout_width="244dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/off"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bg"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="109dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/digital"
+        android:textColor="#1F1F1F"
+        android:text="5"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCount"
+        app:layout_constraintEnd_toEndOf="@+id/imgon"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="@+id/imgon"
+        app:layout_constraintTop_toTopOf="@+id/imgon"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnCount"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        android:background="@drawable/count"
+        app:layout_constraintBottom_toBottomOf="@+id/imgon"
+        app:layout_constraintEnd_toEndOf="@+id/imgon"
+        app:layout_constraintStart_toStartOf="@+id/imgon"
+        app:layout_constraintTop_toTopOf="@+id/imgon"
+        app:layout_constraintVertical_bias="0.826"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnReset"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/re"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCount"
+        app:layout_constraintStart_toStartOf="@+id/imgon"
+        app:layout_constraintTop_toBottomOf="@+id/tv"
+        app:layout_constraintVertical_bias="0.039"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnLed"
+        android:layout_width="53dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/led"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCount"
+        app:layout_constraintEnd_toEndOf="@+id/imgon"
+        app:layout_constraintTop_toBottomOf="@+id/tv"
+        app:layout_constraintVertical_bias="0.247"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom"
+        android:layout_width="891dp"
+        android:layout_height="wrap_content"
+        android:background="#B49344"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:theme="@style/MyBottomNavigationView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menue" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
