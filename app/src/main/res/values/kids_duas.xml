@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="meal_heading" formatted="true">
+Dua for starting a meal
+    </string>
+    <string name="meal_heading_urdu" formatted="true">
+کھانا شروع کرنے کے لئے دعا
+    </string>
+
+    <string name="meal_urdu" formatted="true">
+بِسْمِ اللَّهِ وَعَلَى بَرَكَةِ اللَّهِ
+    </string>
+    <string name="meal_english" formatted="true">
+In the name of Allah, and with the blessings
+ of Allah
+    </string>
+
+
+
+    <string name="mealf_heading" formatted="true">
+After finishing a meal
+    </string>
+    <string name="mealf_heading_urdu" formatted="true">
+کھانا ختم کرنے کے بعد
+    </string>
+
+    <string name="mealf_urdu" formatted="true">
+الْحَمْدُ لِلَّهِ الَّذِى اطْعَمَنَا وَسَقَانَا ، وَجَعَلنَا مُسْلِمِينَ
+    </string>
+    <string name="mealf_english" formatted="true">
+Praise be to Allah Who has fed us and given
+us drink and made us Muslims.
+    </string>
+
+
+
+    <string name="sleep_heading" formatted="true">
+Dua for before sleeping
+    </string>
+    <string name="sleep_heading_urdu" formatted="true">
+سونے سے پہلے دعا
+    </string>
+
+    <string name="sleep_urdu" formatted="true">
+اللَّهُمَّ بِسْمِكَ أَمُوتُ وَأَحْيَا
+    </string>
+    <string name="sleep_english" formatted="true">
+In Your name, O Allah, I die and I live.
+    </string>
+
+
+    <string name="sleepA_heading" formatted="true">
+Dua after waking up from sleep
+    </string>
+    <string name="sleepA_heading_urdu" formatted="true">
+نیند سے بیدار ہونے کے بعد دعا
+    </string>
+
+    <string name="sleepA_urdu" formatted="true">
+الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ
+    </string>
+    <string name="sleepA_english" formatted="true">
+All praise and thanks be to Allah, who
+has given us life after causing us to die,
+ and to Him is the resurrection.
+    </string>
+
+
+
+
+
+    <string name="mosque_heading" formatted="true">
+Dua for entering the mosque
+    </string>
+    <string name="mosque_heading_urdu" formatted="true">
+مسجد میں داخلے کے لیے دعا
+    </string>
+
+    <string name="mosque_urdu" formatted="true">
+اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ
+    </string>
+    <string name="mosque_english" formatted="true">
+O Allah, open for me the doors of Your mercy.
+    </string>
+
+
+
+
+    <string name="mosqueA_heading" formatted="true">
+Dua for leaving the mosque
+    </string>
+    <string name="mosqueA_heading_urdu" formatted="true">
+مسجد چھوڑنے کی دعا
+    </string>
+
+    <string name="mosqueA_urdu" formatted="true">
+اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ وَرَحْمَتِكَ، اللَّهُمَّ
+    </string>
+    <string name="mosqueA_english" formatted="true">
+ O Allah, I ask You for Your grace and mercy
+    </string>
+
+
+
+
+
+
+
+
+
+</resources>

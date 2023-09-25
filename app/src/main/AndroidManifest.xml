@@ -18,6 +18,9 @@
         android:theme="@style/Theme.Dcounter"
         tools:targetApi="31">
         <activity
+            android:name=".kids_duas"
+            android:exported="false" />
+        <activity
             android:name=".activity_kids_menue"
             android:exported="false" />
         <activity

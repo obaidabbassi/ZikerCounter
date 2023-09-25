@@ -17,7 +17,7 @@
     </style>
 
     <style name="MyBottomNavigationView" parent="Theme.MaterialComponents.Light">
-        <item name="colorPrimary">#F2CF38</item>
+        <item name="colorPrimary">#FFFFFF</item>
 
     </style>
 
