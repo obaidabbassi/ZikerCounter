@@ -48,7 +48,7 @@ public class dashboard extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Intent intent=new Intent(dashboard.this, Comingsoon.class);
+                Intent intent=new Intent(dashboard.this, activity_kids_menue.class);
 
                 startActivity(intent);
 
