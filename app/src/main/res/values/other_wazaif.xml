@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+<string name="wealth_h1" formatted="true"> To acquire wealth</string>
+    <string name="wealth_h2" formatted="true"> دولت حاصل کرنے کے لئے</string>
+
+    <string name="wealth_h3" formatted="true"> دروود شریف کے ساتھ ہر نماز کے ساتھ تین بار اور “یا غنی یا مغنی”
+ کو سو بار پڑھیں</string>
+
+    <string name="wealth_h4" formatted="true"> Every prayer with durood sharif three
+times and “Ya ghani ya mugni” 100 times</string>
+
+
+
+    <string name="debt_h1" formatted="true"> Debt Settlement Allowance</string>
+    <string name="debt_h2" formatted="true"> قرض اتارنے کا وظیفہ</string>
+
+    <string name="debt_h3" formatted="true">
+
+        "اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ"
+        ہر نماز کے بعد پہلی اور آخری بار "درود پاک" پڑھیں اور دعا کو
+ گیارہ بار پڑھیں،
+اور صبح و شام ہر بار سو بار پڑھنے
+ سے آپ کا قرض پہاڑ کی طرح کم ہو جائے گا۔
+
+ </string>
+
+    <string name="debt_h4" formatted="true">
+        After every prayer, first and last read "Darood Pak and read
+ dua eleven times and by reading 100,100 times in the
+ morning and evening ,your debt will come down
+as much as a mountain
+</string>
+
+
+
+    <string name="need_h1" formatted="true"> For every need</string>
+    <string name="need_h2" formatted="true"> ہر ضرورت کے لئے</string>
+
+    <string name="need_h3" formatted="true">
+فجر نماز کے بعد ہر ضرورت کے لئے سو بار  يا أوَّل کہیں
+ </string>
+
+    <string name="need_h4" formatted="true"> For every need 100 times after fajar prayer
+say “Ya awalo”
+</string>
+
+
+    <string name="memory_h1" formatted="true">
+        Powerful dua for memory
+
+    </string>
+    <string name="memory_h2" formatted="true">
+
+        یاداشت کے لئے موثر دعا
+
+
+    </string>
+
+    <string name="memory_h3" formatted="true">
+وہ طلباء جو مطالعے میں دلچسپی نہیں رکھتے یا مطالعے میں
+ کمزور ہیں کے لئے يَا عَلِيْمُ اکثر مرتبہ
+ </string>
+
+    <string name="memory_h4" formatted="true">
+
+
+        Students who are not interested in studying or are weak in their studies, "ya aleemo" ! Recite many times.
+</string>
+
+
+
+
+
+    <string name="patient_h1" formatted="true">
+  For patient treatment
+
+    </string>
+    <string name="patient_h2" formatted="true">
+
+مریضوں کی بہتری کے لئے
+
+
+    </string>
+
+    <string name="patient_h3" formatted="true">
+وہ مریض جس کا طبیب کے لئے علاج مشکل ہو، اگر وہ ہر روز 200 بار "الله" پڑھے تو شفا پائے گا
+ </string>
+
+    <string name="patient_h4" formatted="true">
+
+
+A patient for whom medical treatment is difficult, if they recite "Allah" 200 times daily, they will find healing
+</string>
+
+
+
+
+
+</resources>

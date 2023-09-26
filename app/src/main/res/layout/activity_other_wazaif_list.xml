@@ -4,34 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FDE290"
+    android:background="@drawable/screen"
     android:gravity="center"
     android:orientation="vertical"
 
     tools:context="com.example.zikercounter.Weekly_wazaif">
 
-
-
-
-    <ImageView
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:background="@drawable/kids_bg"/>
+        app:adSize="BANNER"
+        app:adUnitId="@string/ad_id_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wazaifcardother"
+        app:layout_constraintVertical_bias="0.982" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_marginTop="20dp"
-android:layout_marginBottom="10dp"
-        android:paddingBottom="10dp"
-
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="40dp"
         android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:paddingBottom="20dp"
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
@@ -56,7 +56,7 @@ android:layout_marginBottom="10dp"
 
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:text="@string/meal_heading"
+                        android:text="@string/wealth_h1"
 
                         android:textColor="@color/yellow"
                         />
@@ -67,7 +67,7 @@ android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
 
                         android:textStyle="bold"
-                        android:text="@string/meal_heading_urdu"
+                        android:text="@string/wealth_h2"
                         android:textColor="@color/black"
                         />
                     <TextView
@@ -76,8 +76,7 @@ android:layout_marginBottom="10dp"
 
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/meal_urdu"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/wealth_h3"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
 
                         android:layout_marginEnd="20dp"
@@ -86,11 +85,10 @@ android:layout_marginBottom="10dp"
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAlignment="center"
+
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/meal_english"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/wealth_h4"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
 
                         android:layout_marginEnd="20dp"
@@ -125,7 +123,7 @@ android:layout_marginBottom="10dp"
                         android:id="@+id/tvheading"
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:text="@string/mealf_heading"
+                        android:text="@string/debt_h1"
 
                         android:textColor="@color/yellow"
                         />
@@ -136,38 +134,25 @@ android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
                         android:id="@+id/tvsubheading"
                         android:textStyle="bold"
-                        android:text="@string/mealf_heading_urdu"
+                        android:text="@string/debt_h2"
                         android:textColor="@color/black"
                         />
 
                     <TextView
                         android:id="@+id/tvmain"
                         android:layout_width="wrap_content"
-
-                        android:layout_height="61dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:paddingBottom="15dp"
-                        android:text="@string/mealf_urdu"
-                        android:textColor="@color/black"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/tvmains"
-                        android:layout_width="wrap_content"
                         android:textAlignment="center"
-                        android:layout_height="61dp"
+                        android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
                         android:paddingBottom="15dp"
-                        android:text="@string/mealf_english"
+                        android:text="@string/debt_h3"
+
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
 
-
                 </LinearLayout>
 
 
@@ -199,7 +184,7 @@ android:layout_marginBottom="10dp"
 
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:text="@string/sleep_heading"
+                        android:text="@string/need_h1"
 
                         android:textColor="@color/yellow"
                         />
@@ -210,8 +195,7 @@ android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
 
                         android:textStyle="bold"
-                        android:text="@string/sleep_heading_urdu"
-                        android:textColor="@color/black"
+                        android:text="@string/need_h2"                        android:textColor="@color/black"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -219,10 +203,9 @@ android:layout_marginBottom="10dp"
 
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/sleep_urdu"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/need_h3"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
-
+                        android:textAlignment="center"
                         android:layout_marginEnd="20dp"
                         android:textSize="18sp"/>
                     <TextView
@@ -231,8 +214,7 @@ android:layout_marginBottom="10dp"
 
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/sleepA_english"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/need_h4"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
                         android:textAlignment="center"
                         android:layout_marginEnd="20dp"
@@ -270,7 +252,7 @@ android:layout_marginBottom="10dp"
 
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:text="@string/mosque_heading"
+                        android:text="@string/memory_h1"
 
                         android:textColor="@color/yellow"
                         />
@@ -281,17 +263,16 @@ android:layout_marginBottom="10dp"
                         android:layout_gravity="center"
 
                         android:textStyle="bold"
-                        android:text="@string/mosque_heading_urdu"
+                        android:text="@string/memory_h2"
                         android:textColor="@color/black"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-
+                        android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/mosque_urdu"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/memory_h3"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
 
                         android:layout_marginEnd="20dp"
@@ -302,10 +283,9 @@ android:layout_marginBottom="10dp"
 
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/mosque_english"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/memory_h4"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
-android:textAlignment="center"
+                        android:textAlignment="center"
                         android:layout_marginEnd="20dp"
                         android:textSize="18sp"/>
 
@@ -317,9 +297,6 @@ android:textAlignment="center"
 
 
             </androidx.cardview.widget.CardView>
-
-
-
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -343,7 +320,7 @@ android:textAlignment="center"
 
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:text="@string/mosqueA_heading"
+                        android:text="@string/patient_h1"
 
                         android:textColor="@color/yellow"
                         />
@@ -354,7 +331,7 @@ android:textAlignment="center"
                         android:layout_gravity="center"
 
                         android:textStyle="bold"
-                        android:text="@string/mosqueA_heading_urdu"
+                        android:text="@string/patient_h2"
                         android:textColor="@color/black"
                         />
                     <TextView
@@ -363,10 +340,9 @@ android:textAlignment="center"
 
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/mosqueA_urdu"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/patient_h3"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
-
+                        android:textAlignment="center"
                         android:layout_marginEnd="20dp"
                         android:textSize="18sp"/>
                     <TextView
@@ -375,12 +351,12 @@ android:textAlignment="center"
 
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:text="@string/mosqueA_english"
-                        android:layout_marginStart="20dp"
+                        android:text="@string/patient_h4"                        android:layout_marginStart="20dp"
                         android:paddingBottom="15dp"
-                        android:textAlignment="center"
+                            android:textAlignment="center"
                         android:layout_marginEnd="20dp"
                         android:textSize="18sp"/>
+
 
 
 
@@ -390,6 +366,8 @@ android:textAlignment="center"
 
 
             </androidx.cardview.widget.CardView>
+
+
 
 
 
@@ -401,7 +379,9 @@ android:textAlignment="center"
 
 
 
+
     </ScrollView>
+
 
 
 

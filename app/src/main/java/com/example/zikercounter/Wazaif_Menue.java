@@ -50,7 +50,7 @@ wazaifcardother.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
 
-        Intent intent=new Intent(Wazaif_Menue.this, Comingsoon.class);
+        Intent intent=new Intent(Wazaif_Menue.this, other_wazaif_list.class);
 
         startActivity(intent);
 
