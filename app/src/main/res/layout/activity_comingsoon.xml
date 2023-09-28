@@ -7,18 +7,17 @@
     android:background="@drawable/screen"
     tools:context="com.example.zikercounter.Comingsoon">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="352dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="336dp"
-        android:text="Coming soon thanks for your patience!"
-android:textAlignment="center"
-        android:textColor="#554B4B"
-        android:textSize="16sp"
-        android:textStyle="bold"
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+android:src="@drawable/man_3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

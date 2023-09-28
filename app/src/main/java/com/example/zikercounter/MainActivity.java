@@ -39,7 +39,7 @@ import yuku.ambilwarna.AmbilWarnaDialog;
 public class MainActivity extends AppCompatActivity {
 
     TextView tv;
-    AppCompatImageButton btn, rebtn,led,color,volume,mute;
+    AppCompatImageButton btn, rebtn,led,color;
     SharedPreferences preferences;
     BottomNavigationView bottomNavigationView;
     private MediaPlayer mediaPlayer1;
@@ -110,11 +110,9 @@ ambilWarnaDialog.show();
 
 
 
-//volume fucntion
 
-    volume=    findViewById(R.id.volume);
 
-mute= findViewById(R.id.mute);
+
 
 
 
@@ -292,44 +290,7 @@ mute= findViewById(R.id.mute);
        //volume on off is here
 
 
-        volume.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-
-
-                if (mediaPlayer1 != null) {
-                    mediaPlayer1.stop();
-                    mediaPlayer1.release();
-                    mediaPlayer1 = null;
-                }
-
-
-
-
-
-                volume.setVisibility(View.INVISIBLE);
-                mute.setVisibility(View.VISIBLE);
-
-
-
-
-            }
-        });
-
-        mute.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (mediaPlayer1 != null) {
-                    mediaPlayer1.stop();
-                    mediaPlayer1.release();
-                    mediaPlayer1 = null;
-                }
-
-                volume.setVisibility(View.VISIBLE);
-                mute.setVisibility(View.INVISIBLE);
-            }
-        });
 
 
 
