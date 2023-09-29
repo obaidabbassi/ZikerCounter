@@ -15,7 +15,7 @@ AppCompatButton kids_duas_Btn,daroodBtn;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kids_menue);
         kids_duas_Btn=findViewById(R.id.kids_duas_Btn);
-        daroodBtn=findViewById(R.id.daroodBtn);
+
 
 
 
@@ -31,16 +31,7 @@ AppCompatButton kids_duas_Btn,daroodBtn;
 
 
 
-        daroodBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                Intent intent=new Intent(activity_kids_menue.this,activity_manzil.class);
-
-                startActivity(intent);
-
-            }
-        });
 
     }
 }

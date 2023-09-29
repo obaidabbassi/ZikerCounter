@@ -9,11 +9,13 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 
 public class dashboard extends AppCompatActivity {
  CardView cardView1,cardView4,cardView3,cardView2;
  ImageButton adbtn;
+ AppCompatButton more;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,19 @@ public class dashboard extends AppCompatActivity {
         cardView4 =findViewById(R.id.card4);
         cardView3 =findViewById(R.id.card3);
         cardView2 =findViewById(R.id.card2);
+
+        more=findViewById(R.id.more);
+
+        more.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(dashboard.this, more_dash.class);
+
+                startActivity(intent);
+            }
+        });
+
+
 
 //notes
         cardView1.setOnClickListener(new View.OnClickListener() {
