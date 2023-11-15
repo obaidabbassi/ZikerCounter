@@ -11,8 +11,8 @@ android {
         applicationId = "com.zikercounter"
         minSdk = 21
         targetSdk = 33
-        versionCode = 20
-        versionName = "2.7"
+        versionCode = 22
+        versionName = "2.8"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

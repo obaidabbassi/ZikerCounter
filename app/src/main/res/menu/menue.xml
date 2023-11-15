@@ -23,7 +23,7 @@
     <item android:id="@+id/like"
         android:title="Rate us"
         android:icon="@drawable/like"
-        android:iconTint="@color/grey"/>
+        android:iconTint="#FF9800"/>
 
 
 <!--    <item android:id="@+id/setting"-->

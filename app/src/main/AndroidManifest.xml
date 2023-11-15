@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-
-
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
         android:allowBackup="true"
@@ -19,6 +18,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dcounter"
         tools:targetApi="31">
+        <activity
+            android:name=".waqia"
+            android:exported="false" />
+        <activity
+            android:name=".activity_yasin"
+            android:exported="false" />
         <activity
             android:name=".more_dash"
             android:exported="false" />
@@ -110,7 +115,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
 
         <service
             android:name=".ServiceMessaging"
